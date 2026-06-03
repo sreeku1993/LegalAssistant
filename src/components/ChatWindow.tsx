@@ -137,7 +137,7 @@ export default function ChatWindow() {
           mb-8
         "
         >
-          ⚖ AI Gumasthan
+          🏛️ AI Gumasthan
         </div>
 
         <button
@@ -156,8 +156,9 @@ export default function ChatWindow() {
         >
           + New Chat
         </button>
+      
       </div>
-
+  
       {/* Chat */}
 
       <div
@@ -193,7 +194,7 @@ export default function ChatWindow() {
                   mb-3
                 "
                 >
-                  ⚖
+                  🏛️
                 </div>
 
                 <div
@@ -203,13 +204,16 @@ export default function ChatWindow() {
                   mb-2
                 "
                 >
-                  NyayaAI
+                  AI Gumasthan
                 </div>
 
                 <div>
                   Ask questions
                   about Indian law
                 </div>
+                <div className="text-sm opacity-50">
+  Created by Sreekumar KS
+</div>
               </div>
             </div>
           )}

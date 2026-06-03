@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@google/generative-ai": "^0.24.1",
+    "@huggingface/inference": "^4.13.18",
     "@huggingface/transformers": "^3.8.1",
     "@langchain/community": "^1.1.29",
     "@langchain/core": "^1.1.47",

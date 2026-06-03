@@ -1,0 +1,14 @@
+[
+  {
+    "question": "What is Article 14?",
+    "ground_truth": "Article 14 guarantees equality before the law and equal protection of the laws."
+  },
+  {
+    "question": "Punishment for theft",
+    "ground_truth": "Section 379 provides imprisonment up to three years, fine, or both."
+  },
+  {
+    "question": "What is Article 21?",
+    "ground_truth": "Article 21 guarantees protection of life and personal liberty."
+  }
+]

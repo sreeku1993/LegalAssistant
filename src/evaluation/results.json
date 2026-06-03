@@ -1,0 +1,38 @@
+[
+  {
+    "question": "What is Article 14?",
+    "answer": "Article 14 states that the State shall not deny to any person equality before the law or the equal protection of the laws within the territory of India. It is about equality before law.",
+    "contexts": [
+      "Article 14: Equality before law.\n\nThe State shall not deny to any person equality before the law or the equal protection of the laws within the territory of India.",
+      "14: [Omitted.].\n\n[Appeals].—Omitted by, s. 12, ibid.(w.e.f. 2-10-1991).",
+      "14: Post Office marks prima facie evidence of certain facts denoted.\n\nIn every proceeding for the recovery of any postage or other sum alleged to be due under this Act in respect of a postal article,—\n(a) the production of the postal article, having thereon the official mark of the Post Office denoting that the article has been refused, or that the addressee is dead or cannot be found, shall be prima facie evidence of the fact so denoted, and\n(b) the person from whom the postal article purports to have come, shall, until the contrary is proved, be deemed to be the sender thereof.",
+      "13: [Repealed.].\n\n[Insertion of new Chapter V.] Rep. by s. 2 and the First Schedule, ibid. (w.e.f. 26-5-1978).",
+      "Article 31C: Saving of laws giving effect to certain directive principles.\n\nNotwithstanding anything contained in article 13, no law giving effect to the policy of the State towards securing all or any of the principles laid down in Part IV shall be deemed to be void on the ground that it is inconsistent with, or takes away or abridges any of the rights conferred by article 14 or article 19; and no law containing a declaration that it is for giving effect to such policy shall be called in question in any court on the ground that it does not give effect to such policy:\nProvided that where such law is made by the Legislature of a State, the provisions of this article shall not apply thereto unless such law, having been reserved for the consideration of the President, has received his assent."
+    ],
+    "ground_truth": "Article 14 guarantees equality before the law and equal protection of the laws."
+  },
+  {
+    "question": "Punishment for theft",
+    "answer": "According to Section 379, the punishment for theft is imprisonment of either description for a term which may extend to three years, or with fine, or with both.",
+    "contexts": [
+      "Section 379: Punishment for theft\n\nWhoever commits theft shall be punished with imprisonment of either description for a term which may extend to three years, or with fine, or with both.",
+      "Section 382: Theft after preparation made for causing death, hurt or restraint in order to the committing of the theft\n\nWhoever commits theft, having made preparation for causing death, or hurt, or restraint, or fear of death, or of hurt, or of restraint, to any person, in order to the committing of such theft, or in order to the effecting of his escape after the committing of such theft or in order to the retaining of property taken by such theft, shall be punished with rigorous imprisonment for a term which may extend to ten years, and shall also be liable to fine.",
+      "Section 439: Punishment for intentionally running vessel aground or ashore with intent to commit theft, etc.\n\nWhoever intentionally runs any vessel aground or ashore, intending to commit theft of any property contained therein or to dishonestly misappropriate any such property, or with intent that such theft or misappropriation of property may be committed, shall be punished with imprisonment of either description for a term which may extend to ten years, and shall also be liable to fine.",
+      "Section 379: Punishment for theft\n\nWhoever commits theft shall be punished with imprisonment of either description for a term which may extend to three years, or with fine, or with both.",
+      "66C: Punishment for identity theft.\n\nWhoever, fraudulently or dishonestly make use of the electronic signature, password or any other unique identification feature of any other person, shall be punished with imprisonment of either description for a term which may extend to three years and shall also be liable to fine which may extend to rupees one lakh."
+    ],
+    "ground_truth": "Section 379 provides imprisonment up to three years, fine, or both."
+  },
+  {
+    "question": "What is Article 21?",
+    "answer": "According to the provided sources, Article 21 refers to the \"Protection of life and personal liberty.\" It states that \"No person shall be deprived of his life or personal liberty except according to procedure established by law.\" This is mentioned in both Source 1 and Source 2.",
+    "contexts": [
+      "Article 21: Protection of life and personal liberty.\n\nNo person shall be deprived of his life or personal liberty except according to procedure established by law.",
+      "Article 21: Protection of life and personal liberty.\n\nNo person shall be deprived of his life or personal liberty except according to procedure established by law.",
+      "21: Restrictions on laws passed by Legislative Assembly with respect to certain matters.\n\n(1) The provisions of article 286, article 287 and article 288 shall apply in relation to any law passed by the Legislative Assembly with respect to any of the matters referred to in those articles as they apply in relation to any law passed by the Legislature of a State with respect to those matters.\n\n(2) The provisions of article 304 shall, with the necessary modifications, apply in relation to any law passed by the Legislative Assembly with respect to any of the matters referred to in that article as they apply in relation to any law passed by the Legislature of a State with respect to those matters.",
+      "21: Amendment of section 25.\n\n[Amendment of section 25.] Rep. by s. 2 and the First Schedule, ibid. (w.e.f. 26-11-1978).",
+      "21: Provisions as to exhibitions.\n\nThe exhibition of a design, or of any article to which a design is applied, at an industrial or other exhibition to which the provisions of this section have been extended by the Central Government by notification in the Official Gazette, or the publication of a description of the design, during or after the period of the holding of the exhibition, or the exhibition of the design or the article or the publication of a description of the design by any person elsewhere during or after the period of the holding of the exhibition, without the privity or consent of the proprietor, shall not prevent the design from being registered or invalidate the registration thereof:\n\nProvided that—\n(a) the exhibitor exhibiting the design or article, or publishing a description of the design, gives to the Controller previous notice in the prescribed form; and\n(b) the application for registration is made within six months from the date of first exhibiting the design or article or publishing a description of the design."
+    ],
+    "ground_truth": "Article 21 guarantees protection of life and personal liberty."
+  }
+]
