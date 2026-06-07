@@ -1,14 +1,107 @@
 [
   {
     "question": "What is Article 14?",
-    "ground_truth": "Article 14 guarantees equality before the law and equal protection of the laws."
+    "ground_truth": "Article 14 guarantees equality before law and equal protection of the laws."
   },
   {
-    "question": "Punishment for theft",
-    "ground_truth": "Section 379 provides imprisonment up to three years, fine, or both."
+    "question": "What is Article 19?",
+    "ground_truth": "Article 19 guarantees certain freedoms including speech, expression, assembly, association, movement, residence and profession."
   },
   {
     "question": "What is Article 21?",
     "ground_truth": "Article 21 guarantees protection of life and personal liberty."
+  },
+  {
+    "question": "What is Article 32?",
+    "ground_truth": "Article 32 provides the right to move the Supreme Court for enforcement of fundamental rights."
+  },
+  {
+    "question": "What is Article 226?",
+    "ground_truth": "Article 226 empowers High Courts to issue writs for enforcement of rights and other purposes."
+  },
+  {
+    "question": "What is Article 368?",
+    "ground_truth": "Article 368 lays down the procedure for amendment of the Constitution."
+  },
+  {
+    "question": "What is the punishment for murder?",
+    "ground_truth": "Murder is punishable with death or imprisonment for life and fine."
+  },
+  {
+    "question": "What is the punishment for theft?",
+    "ground_truth": "Theft is punishable with imprisonment, fine, or both as provided under the relevant criminal law."
+  },
+  {
+    "question": "What is the punishment for cheating?",
+    "ground_truth": "Cheating is punishable with imprisonment, fine, or both under the criminal law."
+  },
+  {
+    "question": "What is the punishment for criminal breach of trust?",
+    "ground_truth": "Criminal breach of trust is punishable with imprisonment, fine, or both."
+  },
+  {
+    "question": "What is the punishment for kidnapping?",
+    "ground_truth": "Kidnapping is punishable with imprisonment and may also attract fine."
+  },
+  {
+    "question": "What is Section 302?",
+    "ground_truth": "Section 302 prescribes punishment for murder."
+  },
+  {
+    "question": "What is Section 378?",
+    "ground_truth": "Section 378 defines theft."
+  },
+  {
+    "question": "What is Section 420?",
+    "ground_truth": "Section 420 deals with cheating and dishonestly inducing delivery of property."
+  },
+  {
+    "question": "What is Section 124A?",
+    "ground_truth": "Section 124A dealt with sedition under the Indian Penal Code."
+  },
+  {
+    "question": "What is equality before law?",
+    "ground_truth": "Equality before law means every person is equal in the eyes of the law and entitled to equal protection of the laws."
+  },
+  {
+    "question": "What is personal liberty under Article 21?",
+    "ground_truth": "Article 21 protects life and personal liberty except according to procedure established by law."
+  },
+  {
+    "question": "Which article guarantees freedom of speech?",
+    "ground_truth": "Article 19(1)(a) guarantees freedom of speech and expression."
+  },
+  {
+    "question": "Which article abolishes untouchability?",
+    "ground_truth": "Article 17 abolishes untouchability."
+  },
+  {
+    "question": "Which article prohibits discrimination?",
+    "ground_truth": "Article 15 prohibits discrimination on specified grounds."
   }
+  ,{
+    "question": "Which article guarantees equality before law?",
+    "ground_truth": "Article 14 guarantees equality before law."
+  },
+  {
+    "question": "Which article protects life and personal liberty?",
+    "ground_truth": "Article 21 protects life and personal liberty."
+  },
+  {
+    "question": "Which article allows constitutional amendments?",
+    "ground_truth": "Article 368 provides the procedure for constitutional amendments."
+  },
+  {
+    "question": "Which article allows citizens to approach the Supreme Court for enforcement of fundamental rights?",
+    "ground_truth": "Article 32 provides the right to approach the Supreme Court for enforcement of fundamental rights."
+  },
+  {
+    "question": "What is Article 999?",
+    "ground_truth": "No such article exists in the Constitution of India."
+  },
+  {
+    "question": "What is Section 9999 IPC?",
+    "ground_truth": "No such section exists in the Indian Penal Code."
+  }
+
 ]

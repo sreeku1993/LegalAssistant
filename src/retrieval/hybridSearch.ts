@@ -1,38 +1,50 @@
 import { bm25Search } from "./bm25Search";
 import { vectorSearch } from "./vectorSearch";
-// function preprocessQuery(
-//   query: string
-// ) {
-//   const q = query.toLowerCase();
+import { traceable } from "langsmith/traceable";
+export const tracedBm25Search =
+  traceable(
+    bm25Search,
+    {
+      name: "bm25-search"
+    }
+  );
+  export const tracedVectorSearch =
+  traceable(
+    vectorSearch,
+    {
+      name: "vector-search"
+    }
+  );
 
-//   if (q.startsWith("article ")) {
-//     return `${query} constitution`;
-//   }
-
-//   if (q.startsWith("section ")) {
-//     return `${query} law`;
-//   }
-
-//   return query;
-// }
 export async function hybridSearch(
   query: string,
   limit = 10
 ) {
-const processedQuery =query;
+const processedQuery = query;
 
 const vectorResults =
-  await vectorSearch(
+  await tracedVectorSearch(
     processedQuery,
     5
   );
 
 const bm25Results =
-  await bm25Search(
+  await tracedBm25Search(
     processedQuery,
     5
   );
+const q = query.toLowerCase();
 
+if (
+  q.includes("article ") ||
+  q.includes("section ") ||
+  q.includes("ipc ") ||
+  q.includes("bns ") ||
+  q.includes("crpc ") ||
+  q.includes("bnss ")
+) {
+  return bm25Results;
+}
   const fused = new Map<
     string,
     any

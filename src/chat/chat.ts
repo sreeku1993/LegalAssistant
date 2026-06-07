@@ -1,6 +1,6 @@
 import "dotenv/config";
 import { ChatOpenAI } from "@langchain/openai";
-
+import { traceable } from "langsmith/traceable";
 import { hybridSearch } from "../retrieval/hybridSearch";
 import { ChatGroq } from "@langchain/groq";
 
@@ -22,7 +22,8 @@ ${result.content}
     .join("\n");
 }
 
-export async function chat(
+export const chat = traceable(
+async function chat(
   question: string
 ) {
   const results =
@@ -52,8 +53,12 @@ ${question}
       },
     ]);
 
-  return {
+    return {
     answer: response.content,
     sources: results,
   };
+},
+{
+  name: "legal-chat"
 }
+);

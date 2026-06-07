@@ -23,9 +23,10 @@ const results =
     COLLECTION,
     {
       vector: embedding,
-      limit,
+      limit: 20,
     }
   );
+
 
   return results.map(
     (result: any) => ({

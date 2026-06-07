@@ -77,7 +77,11 @@ export async function bm25Search(
 ) {
   await initializeBM25();
 
-  const results = bm25.search(query);
+  const results =
+    bm25.search(query);
+
+  
+
 
   return results
     .slice(0, limit)
